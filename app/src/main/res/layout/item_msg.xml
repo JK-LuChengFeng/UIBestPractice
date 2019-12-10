@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="left|center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/item_tv_received"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这是一条收到的消息"
+                android:layout_gravity="center"
+                android:background="@drawable/talk_left"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/talk_right">
+
+            <TextView
+                android:id="@+id/item_tv_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息这是接收到消息"
+                android:textColor="#FFF"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

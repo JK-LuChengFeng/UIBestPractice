@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="聊天小Demo"
+        android:gravity="center"
+        android:padding="10dp"/>
+    
+    <Button
+        android:id="@+id/btn_autotalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动聊天"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_sizhitalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="思知聊天机器人"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_turingtalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图灵聊天机器人"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
